@@ -1,0 +1,27 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "app1",
+    "app2",
+    "app3",
+    "libs/*",
+    "shared"
+  ],
+  "scripts": {
+    "start1": "cd app1 && yarn start",
+    "start2": "cd app2 && yarn start",
+    "start3": "cd app3 && yarn start"
+  },
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-app-rewire-babel-loader": "^0.1.1",
+    "react-app-rewired": "^1.6.2",
+    "react-app-rewire-yarn-workspaces": "^1.0.3",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.1",
+    "@monorepo/thing": "1.0.0",
+    "@monorepo/shared": "1.0.0"
+  }
+}

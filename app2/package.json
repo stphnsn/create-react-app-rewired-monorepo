@@ -1,0 +1,9 @@
+{
+  "name": "@monorepo/app2",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "PORT=3001 react-app-rewired start --config-overrides ../config-overrides.js",
+    "build": "react-app-rewired build --config-overrides ../config-overrides.js",
+    "test": "react-app-rewired test --env=jsdom --config-overrides ../config-overrides.js"
+  }
+}
