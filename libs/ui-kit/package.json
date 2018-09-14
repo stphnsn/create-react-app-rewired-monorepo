@@ -1,0 +1,12 @@
+{
+  "name": "@monorepo/ui-kit",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "copy": "copyfiles -u 1 'src/**/*' ./lib -e '**/*.test.js'",
+    "build": "babel src -d lib --ignore '**/*.test.js'",
+    "watch": "babel src -d lib --ignore '**/*.test.js' --watch"
+  }
+}
+

@@ -1,3 +1,3 @@
-const SECRET_SHARED_CODE = "Hey! ";
+const SharedSecret = 'FLIPPING HECK';
 
-export default SECRET_SHARED_CODE;
+export default SharedSecret;

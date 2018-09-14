@@ -1,6 +1,7 @@
-const fs = require("fs");
-const path = require("path");
-const rewireBabelLoader = require("react-app-rewire-babel-loader");
+const fs = require('fs');
+const path = require('path');
+const rewireBabelLoader = require('react-app-rewire-babel-loader');
+const rewireYarnWorkspaces = require('react-app-rewire-yarn-workspaces');
 
 const appDirectory = fs.realpathSync(process.cwd());
 const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
@@ -8,5 +9,12 @@ const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
 console.log('Shared config-overrides');
 
 module.exports = function override(config, env) {
-  return rewireBabelLoader.include(config, resolveApp("shared"));
+  const rewires = compose(
+    rewireYarnWorkspaces
+  );
+  config = rewireBabelLoader.include(
+    config,
+    resolveApp(shared)
+  );
+  return rewires(config, env);
 };

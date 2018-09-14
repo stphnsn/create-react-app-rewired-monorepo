@@ -15,13 +15,14 @@
     "start3": "cd app3 && yarn start"
   },
   "dependencies": {
+    "@monorepo/shared": "1.0.0",
+    "@monorepo/ui-kit": "1.0.0",
+    "copyfiles": "^2.1.0",
     "react": "^16.5.0",
     "react-app-rewire-babel-loader": "^0.1.1",
-    "react-app-rewired": "^1.6.2",
     "react-app-rewire-yarn-workspaces": "^1.0.3",
+    "react-app-rewired": "^1.6.2",
     "react-dom": "^16.5.0",
-    "react-scripts": "1.1.1",
-    "@monorepo/thing": "1.0.0",
-    "@monorepo/shared": "1.0.0"
+    "react-scripts": "1.1.5"
   }
 }
