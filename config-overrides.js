@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { compose } = require('react-app-rewired');
 const rewireBabelLoader = require('react-app-rewire-babel-loader');
 const rewireYarnWorkspaces = require('react-app-rewire-yarn-workspaces');
 
@@ -14,7 +15,7 @@ module.exports = function override(config, env) {
   );
   config = rewireBabelLoader.include(
     config,
-    resolveApp(shared)
+    resolveApp('shared')
   );
   return rewires(config, env);
 };

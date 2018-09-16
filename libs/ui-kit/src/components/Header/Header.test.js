@@ -1,1 +1,1 @@
-console.log('I ama test')
+console.log('I am a test');
