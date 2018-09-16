@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
+import SharedSecret from '@monorepo/shared';
+import { Header } from '@monorepo/ui-kit';
 
-import SharedSecret from "@monorepo/shared";
-import { Header } from "@monorepo/ui-kit";
+import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header title="App 1"/>
+        <Header title="App 1" />
         <p className="App-intro">
           {SharedSecret}
         </p>

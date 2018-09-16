@@ -1,9 +1,10 @@
 {
-  "name": "@monorepo/app1",
+  "name": "app1",
   "version": "0.1.0",
   "scripts": {
     "start": "PORT=3000 react-app-rewired start --config-overrides ../config-overrides.js",
     "build": "react-app-rewired build --config-overrides ../config-overrides.js",
-    "test": "react-app-rewired test --env=jsdom --config-overrides ../config-overrides.js"
+    "test": "react-app-rewired test --env=jsdom --config-overrides ../config-overrides.js",
+    "lint": "eslint src"
   }
 }

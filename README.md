@@ -3,18 +3,21 @@
 TODO
 
 <!--
-
+Rewired Non Ejected Create React Apps
 Shared components
-Streamlined dependency managment
-Non Ejected Create React Apps
+Streamlined dependency management via yarn workspaces
 
 * Added editorconfig
+* Added eslint - opinionated AirBnb
 
-Config
+Config.js
+
 Featureflags
-eslint
-Versioning
+
 Tests - jest config
+
+Versioning
+
 CSS - styled components
 Typescript
 Prettier
@@ -22,7 +25,6 @@ Theming / partners
 CI
 Build and deployment
 Functional Tests - puppeteer?
-
 Accessibility tests
 
 Redux

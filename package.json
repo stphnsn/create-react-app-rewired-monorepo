@@ -7,12 +7,14 @@
     "app2",
     "app3",
     "libs/*",
-    "shared"
+    "shared",
+    "utils/*"
   ],
   "scripts": {
     "start1": "cd app1 && yarn start",
     "start2": "cd app2 && yarn start",
-    "start3": "cd app3 && yarn start"
+    "start3": "cd app3 && yarn start",
+    "lint1": "yarn workspace app1 lint"
   },
   "dependencies": {
     "@monorepo/shared": "1.0.0",
@@ -20,6 +22,7 @@
     "copyfiles": "^2.1.0",
     "react": "^16.5.0",
     "react-app-rewire-babel-loader": "^0.1.1",
+    "react-app-rewire-eslint": "^0.2.3",
     "react-app-rewire-yarn-workspaces": "^1.0.3",
     "react-app-rewired": "^1.6.2",
     "react-dom": "^16.5.0",
