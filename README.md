@@ -1,34 +1,39 @@
 # Monorepo
 
-TODO
+This is a POC of multiple Rewired Create React Apps using a shared component library all wrapped up in some Yarn Workspaces.
+
+## Based on:
+[Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)
+[Create React App](https://github.com/facebook/create-react-app)
+[Create React App Rewired](https://github.com/timarney/react-app-rewired)
+
+## Currently supporting
+
+* Config overrides
+* Component library
+* Shared code
+* .editorconfig
+* ESlint
+
+## To investigate
+
+* ENV Config and Featureflags
+* Versioning of shared components - if that's required
+* Unit tests - jest config
+* CSS - styled components
+* Typescript
+* Theming / partners
+* Prettier
+* Build tasks
+* Accessibility tests
 
 <!--
-Rewired Non Ejected Create React Apps
-Shared components
-Streamlined dependency management via yarn workspaces
+## Stuff it might be worth adding
 
-* Added editorconfig
-* Added eslint - opinionated AirBnb
+It might be worth adding some other stuff to one of the apps so it becomes a better boilerplate for future projects
 
-Config.js
-
-Featureflags
-
-Tests - jest config
-
-Versioning
-
-CSS - styled components
-Typescript
-Prettier
-Theming / partners
-CI
-Build and deployment
-Functional Tests - puppeteer?
-Accessibility tests
-
-Redux
-Sagas
-Reselect
+* Redux
+* Sagas
+* Reselect
 
 -->
