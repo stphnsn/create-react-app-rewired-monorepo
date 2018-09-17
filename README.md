@@ -2,12 +2,15 @@
 
 This is a POC of multiple Rewired Create React Apps using a shared component library all wrapped up in some Yarn Workspaces.
 
-## Based on:
-[Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)
-[Create React App](https://github.com/facebook/create-react-app)
-[Create React App Rewired](https://github.com/timarney/react-app-rewired)
 
-## Currently supporting
+## Based on:
+
+* [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)
+* [Create React App](https://github.com/facebook/create-react-app)
+* [Create React App Rewired](https://github.com/timarney/react-app-rewired)
+
+
+## Currently supporting:
 
 * Config overrides
 * Component library
@@ -15,7 +18,8 @@ This is a POC of multiple Rewired Create React Apps using a shared component lib
 * .editorconfig
 * ESlint
 
-## To investigate
+
+## To investigate:
 
 * ENV Config and Featureflags
 * Versioning of shared components - if that's required
