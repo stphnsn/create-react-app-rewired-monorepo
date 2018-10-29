@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "workspaces": [
+    "utils/*",
     "app1",
     "app2",
     "app3",
     "libs/*",
-    "shared",
-    "utils/*"
+    "shared"
   ],
   "scripts": {
     "start1": "cd app1 && yarn start",
@@ -19,6 +19,7 @@
   "dependencies": {
     "@monorepo/shared": "1.0.0",
     "@monorepo/ui-kit": "1.0.0",
+    "@monorepo/eslint-config": "1.0.0",
     "copyfiles": "^2.1.0",
     "react": "^16.5.0",
     "react-app-rewire-babel-loader": "^0.1.1",
