@@ -14,13 +14,17 @@
     "start1": "cd app1 && yarn start",
     "start2": "cd app2 && yarn start",
     "start3": "cd app3 && yarn start",
-    "lint1": "yarn workspace app1 lint"
+    "lint1": "yarn workspace app1 lint",
+    "build-ui-kit": "cd libs/ui-kit && yarn build"
   },
   "dependencies": {
+    "@monorepo/eslint-config": "1.0.0",
     "@monorepo/shared": "1.0.0",
     "@monorepo/ui-kit": "1.0.0",
-    "@monorepo/eslint-config": "1.0.0",
+    "babel-eslint": "^10.0.1",
     "copyfiles": "^2.1.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-react": "^7.11.1",
     "react": "^16.5.0",
     "react-app-rewire-babel-loader": "^0.1.1",
     "react-app-rewire-eslint": "^0.2.3",

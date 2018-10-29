@@ -1,32 +1,7 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: 'airbnb',
   rules: {
-    semi: ['error', 'always'],
-    'max-len': 'off',
-    'linebreak-style': 'off',
-    'function-paren-newline': ['error', 'consistent'],
-    'jsx-a11y/href-no-hash': 'off',
-    'jsx-a11y/no-static-element-interactions': 'off',
-    'jsx-a11y/click-events-have-key-events': 'off',
-    'jsx-a11y/label-has-for': 'off',
-    'jsx-a11y/anchor-is-valid': ['warn', { aspects: ['invalidHref'] }],
-    'jsx-a11y/no-noninteractive-element-interactions': 'off',
-    'jsx-a11y/mouse-events-have-key-events': 'off',
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    'react/prefer-stateless-function': 'off',
-    'react/no-array-index-key': 'off',
-    'react/require-default-props': 'off',
-    'react/forbid-prop-types': 'off',
-    'react/no-unused-prop-types': 'off',
-    'react/no-did-mount-set-state': 'off',
-    'react/no-typos': 'off',
-    'react/no-danger': 'off',
-    'class-methods-use-this': 'off',
-    'no-restricted-syntax': 'off',
-    'object-curly-newline': ['error', {
-      consistent: true,
-    }],
+    semi: ['error', 'always']
   },
   plugins: [
     'babel',

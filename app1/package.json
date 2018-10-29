@@ -7,7 +7,11 @@
     "test": "react-app-rewired test --env=jsdom --config-overrides ../config-overrides.js",
     "lint": "eslint src"
   },
-  "devDependencies": {
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "@monorepo/ui-kit": "^1.0.0",
+    "@monorepo/shared": "^1.0.0",
     "@monorepo/jest-config": "^1.0.0",
     "@monorepo/eslint-config": "^1.0.0"
   }
