@@ -15,7 +15,7 @@
     "start2": "cd app2 && yarn start",
     "start3": "cd app3 && yarn start",
     "lint1": "yarn workspace app1 lint",
-    "build-ui-kit": "cd libs/ui-kit && yarn build"
+    "build-ui-kit": "yarn workspace @monorepo/ui-kit build"
   },
   "dependencies": {
     "@monorepo/eslint-config": "1.0.0",
